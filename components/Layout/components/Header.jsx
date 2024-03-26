@@ -51,7 +51,9 @@ Powei , Mumbai City          </li>
 
             <Nav.Link className="custom-nav-link dist-nav" href="#services-offered">SERVICES OFFERED</Nav.Link>
             <Nav.Link className="custom-nav-link dist-nav" href="#team">TEAM</Nav.Link>
-
+            
+                      <Nav.Link className="custom-nav-link dist-nav btn header-btn" href="#footer-section">CONTACT</Nav.Link>
+    
           </Nav>
         </Navbar.Collapse>
         </div>

@@ -4,7 +4,7 @@ import React from 'react'
 export default function Footer() {
   return (
     <footer>
-    <div className="footer-area">
+    <div className="footer-area" id='footer-section'>
       <div className="footer-top">
         <div className="container">
           <div className="row ">
@@ -170,7 +170,7 @@ export default function Footer() {
               <div className="copyright-text">
                 <p>
                   Copyright © <Link href="#">CFO Support</Link> | All Right
-                  Reserved
+                  Reserved @2024
                 </p>
              
               </div>
