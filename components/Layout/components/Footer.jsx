@@ -170,7 +170,7 @@ export default function Footer() {
               <div className="copyright-text">
                 <p>
                   Copyright © <Link href="#">CFO Support</Link> | All Right
-                  Reserved
+                  Reserved @2024
                 </p>
              
               </div>
