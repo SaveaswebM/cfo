@@ -28,10 +28,10 @@ export default function Document() {
       <body>
         <Main />
         <NextScript />
-        <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/js/vendor/jquery-3.6.0.min.js" async/>
+    <script src="assets/js/bootstrap.bundle.min.js" async/>
 
-    <script src="assets/js/main.js"></script>
+    <script src="assets/js/main.js" async />
     
     
       </body>
