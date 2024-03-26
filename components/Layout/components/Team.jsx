@@ -11,7 +11,7 @@ export default function Team() {
          <div className="consulting-inner-wrap shine-animate-item">
            <div className="consulting-content">
              <div className="content-left">
-               <h2 className="title">40+</h2>
+               <h2 className="title">10+</h2>
                <span>
                  Consulting <br /> farm
                </span>

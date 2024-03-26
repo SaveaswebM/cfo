@@ -94,11 +94,7 @@ export default function What_we_do() {
                 <div className="icon">
                   <i className="flaticon-trophy" />
                 </div>
-                <div className="content">
-                  <h6 className="circle rotateme">
-                    Years Of - Experience 30 -
-                  </h6>
-                </div>
+             
               </div>
             </div>
           </div>

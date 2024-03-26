@@ -45,12 +45,12 @@ Powei , Mumbai City          </li>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav  tgmenu__main-menu ">
           <Nav className="me-auto navigation menu-item-has-children sub-menu">
-            <Nav.Link className="custom-nav-link" href="#home" >HOME</Nav.Link>
-            <Nav.Link className="custom-nav-link" href="#about">WHY VIRTUAL CFO</Nav.Link>
-            <Nav.Link className="custom-nav-link" href="#what">WHAT WE DO</Nav.Link>
+            <Nav.Link className="custom-nav-link dist-nav" href="#home" >HOME</Nav.Link>
+            <Nav.Link className="custom-nav-link dist-nav" href="#about">WHY VIRTUAL CFO</Nav.Link>
+            <Nav.Link className="custom-nav-link dist-nav" href="#what">WHAT WE DO</Nav.Link>
 
-            <Nav.Link className="custom-nav-link" href="#services-offered">SERVICES OFFERED</Nav.Link>
-            <Nav.Link className="custom-nav-link" href="#team">TEAM</Nav.Link>
+            <Nav.Link className="custom-nav-link dist-nav" href="#services-offered">SERVICES OFFERED</Nav.Link>
+            <Nav.Link className="custom-nav-link dist-nav" href="#team">TEAM</Nav.Link>
 
           </Nav>
         </Navbar.Collapse>
