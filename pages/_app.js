@@ -9,7 +9,7 @@ if (typeof window !== "undefined") {
   formbricks.init({
     environmentId: "clu8i4r110mm45ghdp8xk36m6",
     apiHost: "https://app.formbricks.com",
-    userId: "<user_id>",
+    
     
   });
 }
@@ -23,7 +23,7 @@ export default function App({ Component, pageProps }) {
     router.events.on("routeChangeComplete", handleRouteChange);
 
     return () => {
-      router.events.off("routeChangeComplete", handleRouteChange);
+    router.events.off("routeChangeComplete", handleRouteChange);
     };
   }, []);
   return (<Layout> <Component {...pageProps} /></Layout>);
