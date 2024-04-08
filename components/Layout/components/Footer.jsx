@@ -4,6 +4,7 @@ import React from 'react'
 export default function Footer() {
   return (
     <footer>
+      <Link href="https://wa.me/+919920619074" target='_blank' className='whatsapp-btn'><img src='assets/img/logo/whatsapp.png'/></Link>
     <div className="footer-area" id='footer-section'>
       <div className="footer-top">
         <div className="container">
