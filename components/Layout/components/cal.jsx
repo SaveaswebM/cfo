@@ -16,7 +16,7 @@
 	  })();
 	}, [])
 	return <button data-cal-namespace=""
-	  data-cal-link="mahadev-saveasweb/30min"
+	  data-cal-link="mahadev-saveasweb/q"
       className="custom-nav-link dist-nav btn header-btn"
 	  data-cal-config='{"layout":"month_view"}'
 	  >Free Consultation</button>;
