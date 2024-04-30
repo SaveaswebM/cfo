@@ -1,10 +1,12 @@
 import React from 'react'
+import Carousel from './Carousel'
 
 export default function What_we_do() {
   return (
     <>
       <main className="fix">
     {/* banner-area */}
+    {/*
     <section 
       className="banner-area banner-bg"
      
@@ -29,11 +31,7 @@ export default function What_we_do() {
            
             </div>
             <div className="banner-shape">
-              <img
-                src="assets/img/banner/banner_shape01.png"
-                alt=""
-                className="rightToLeft"
-              />
+             
               <img
                 src="assets/img/banner/banner_shape02.png"
                 alt=""
@@ -74,6 +72,8 @@ export default function What_we_do() {
         </div>
       </div>
     </section>
+  */}
+  <Carousel />
     {/* banner-area-end */}
     {/* brand-area */}
    
@@ -102,7 +102,7 @@ export default function What_we_do() {
             <div className="about-content">
               <div className="section-title mb-35 tg-heading-subheading animation-style3">
                 <span className="sub-title">WHY VIRTUAL CFO</span>
-                <h2 className="title tg-element-title">
+                <h2 className="text-white title tg-element-title">
                 SME management needs an unbiased, fact-based financial perspective to support their decision making
                 </h2>
               </div>
@@ -113,8 +113,8 @@ export default function What_we_do() {
                       <i className="flaticon-target" />
                     </div>
                     <div className="content">
-                      <h4 className="title">PROFESSIONAL ADVICE</h4>
-                      <p>Contract the required expertise as hiring a full time
+                      <h4 className="text-white title">PROFESSIONAL ADVICE</h4>
+                      <p className='text-white'>Contract the required expertise as hiring a full time
 CFO is expensive. Experienced CFOs acting as a
 guide and advisor to partner in achieving business
 objectives</p>
@@ -125,8 +125,8 @@ objectives</p>
                       <i className="flaticon-profit" />
                     </div>
                     <div className="content">
-                      <h4 className="title">PERFORMANCE MANAGEMENT</h4>
-                      <p>Setting targets, rigorous following upon them, and
+                      <h4 className="text-white title">PERFORMANCE MANAGEMENT</h4>
+                      <p className='text-white'>Setting targets, rigorous following upon them, and
 ensuring that the company operates with the highest
 efficiency</p>
                     </div>
@@ -136,9 +136,9 @@ efficiency</p>
                       <i className="flaticon-investment" />
                     </div>
                     <div className="content">
-                      <h4 className="title">DATA INSIGHT &
+                      <h4 className="text-white title">DATA INSIGHT &
 INTELLIGENCE</h4>
-                      <p>Constantly maintaining complete high-level view of
+                      <p className='text-white'>Constantly maintaining complete high-level view of
 the company data, industry and competitors to
 support and provide actionable input to decision
 making</p>
@@ -149,9 +149,9 @@ making</p>
                       <i className="flaticon-light-bulb" />
                     </div>
                     <div className="content">
-                      <h4 className="title">STRUCTURE &
+                      <h4 className="text-white title">STRUCTURE &
 PROCESSES</h4>
-                      <p>Developing structure and processes that are agile
+                      <p className='text-white'> Developing structure and processes that are agile
 and scalable to decrease time spent on non-value
 adding activities</p>
                     </div>
@@ -181,7 +181,7 @@ adding activities</p>
 
     {/* services-area-end */}
     {/* choose-area */}
-    <section className="choose-area">
+    {/* <section className="choose-area">
       <div className="container">
         <div className="row align-items-center">
           <div className="col-lg-6 order-0 order-lg-2">
@@ -252,7 +252,7 @@ adding activities</p>
           data-aos-delay={400}
         />
       </div>
-    </section>
+    </section> */}
     {/* choose-area-end */}
    
     {/* counter-area-end */}
@@ -277,8 +277,16 @@ adding activities</p>
               <div className="project-item">
                 <div className="project-thumb">
                   <a >
-                    <img src="assets/img/project/project_img01.jpg" alt="" />
-                  </a>
+                    {/* <img src="assets/img/project/project_img01.jpg" alt="" /> */}
+                    <video className='gifs-custom'
+  loading="lazy"
+  muted="muted"
+  src="https://cdnl.iconscout.com/lottie/premium/thumb/business-training-7245756-5901367.mp4"
+  type="video/mp4"
+  autoPlay="autoplay"
+  width="100%"
+  loop="loop"
+/>  </a>
                 </div>
                 <div className="project-content">
                   <div className="left-side-content">
@@ -297,8 +305,17 @@ in decision making</span>
               <div className="project-item">
                 <div className="project-thumb">
                   <a >
-                    <img src="assets/img/project/project_img02.jpg" alt="" />
-                  </a>
+                    {/* <img src="assets/img/project/project_img02.jpg" alt="" /> */}
+                    <video
+                    className='gifs-custom'
+  loading="lazy"
+  muted="muted"
+  src="assets/img/gifs/2.mp4"
+  type="video/mp4"
+  autoPlay="autoplay"
+  width="100%"
+  loop="loop"
+/>  </a>
                 </div>
                 <div className="project-content">
                   <div className="left-side-content">
@@ -316,8 +333,17 @@ Diagnose what you need</span>
             <div className="col-xl-3 col-md-6">
               <div className="project-item">
                 <div className="project-thumb">
-                  <a >
-                    <img src="assets/img/project/project_img03.jpg" alt="" />
+                  <a className=''>
+                    {/* <img src="assets/img/project/project_img03.jpg" alt="" /> */}
+                    <video className='gifs-custom'
+  loading="lazy"
+  muted="muted"
+  src="https://cdnl.iconscout.com/lottie/premium/thumb/business-target-8597263-6800016.mp4"
+  type="video/mp4"
+  autoPlay="autoplay"
+  width="100%"
+  loop="loop"
+/>
                   </a>
                 </div>
                 <div className="project-content">
@@ -338,8 +364,19 @@ success</span>
               <div className="project-item">
                 <div className="project-thumb">
                   <a >
-                    <img src="assets/img/project/project_img04.jpg" alt="" />
-                  </a>
+                    {/* <img src="assets/img/project/project_img04.jpg" alt="" /> */}
+                  
+                    <video
+                    className='gifs-custom'
+  loading="lazy"
+  muted="muted"
+  src="https://cdnl.iconscout.com/lottie/premium/thumb/business-deal-3857086-3230094.mp4"
+
+  type="video/mp4"
+  autoPlay="autoplay"
+  width="100%"
+  loop="loop"
+/></a>
                 </div>
                 <div className="project-content">
                   <div className="left-side-content">
@@ -365,11 +402,11 @@ business</span>
           alt=""
           className="alltuchtopdown"
         />
-        <img
+        {/* <img
           src="assets/img/project/project_shape02.png"
           alt=""
           className="rotateme"
-        />
+        /> */}
       </div>
     </section>
     {/* project-area-end */}

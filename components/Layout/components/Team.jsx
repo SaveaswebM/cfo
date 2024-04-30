@@ -48,17 +48,18 @@ export default function Team() {
 
     </div>
     <div className="row align-items-center justify-content-center">
-      <div className="col-lg-6 col-md-8">
+      <div className="col-lg-6 col-md-8 team_2">
         <div className="about__img-wrap-two">
           <img className='team_img' src="assets/img/team/team.png" alt="" />
-          <div className="shape">
+          {/* <div className="shape">
             <img
               src="assets/img/images/h2_about_img_shape.png"
               alt=""
               className="alltuchtopdown"
+            
             />
-          </div>
-          <div className="experience__box-two">
+          </div> */}
+          {/* <div className="experience__box-two">
             <div className="experience__shape">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -78,21 +79,21 @@ export default function Team() {
                 Years Of <br /> Experiences
               </p>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="col-lg-6">
       <div className="team__details-content">
   <h2 className="title">Arun Ganapathy</h2>
   <span className="position">CA, CS & CWA</span>
-  <div className='about__list-box about__list-box1'>
+  <div className='about__list-box '>
               <ul className="list-wrap">
                <li><i className="fas fa-check"></i>30 + Years of experience in Metals & Retail Industry</li>
                 <li><i className="fas fa-check"></i>17 + Years of experience as CFO</li>
          </ul>
               </div>
-            
-              <div className='about__list-box '>
+        
+              {/* <div className='about__list-box '>
               <p className='list-p'>Key Expertise</p>
               <ul className="list-wrap">
                <li><i className="flaticon-arrow-button"></i>Financial Planning & Management</li>
@@ -105,7 +106,7 @@ export default function Team() {
 
 
          </ul>
-              </div>
+              </div> */}
 
 
  
@@ -121,7 +122,7 @@ export default function Team() {
       </li>
       <li>
         <i className="flaticon-pin" />
-        Powei , Mumbai City
+        Mumbai City
       </li>
       <li>
        

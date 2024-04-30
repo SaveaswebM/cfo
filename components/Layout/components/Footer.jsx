@@ -24,9 +24,9 @@ export default function Footer() {
                   <div className="footer-social">
                     <ul className="list-wrap">
                       <li>
-                        <a href="javascript:void(0)">
+                        {/* <a href="javascript:void(0)">
                           <i className="fab fa-facebook-f" />
-                        </a>
+                        </a> */}
                       </li>
                       <li>
                         <a href="javascript:void(0)">
@@ -73,10 +73,11 @@ export default function Footer() {
                       </div>
                       <div className="content">
                         <p>
-                        Powei , Mumbai City
+                        Mumbai City
                         </p>
                       </div>
                     </li>
+                    
                   </ul>
                 </div>
               </div>

@@ -1090,7 +1090,7 @@ textarea {
 .section-title .sub-title {
   display: block;
   text-transform: uppercase;
-  font-size: 15px;
+  font-size: 22px;
   font-weight: 600;
   line-height: normal;
   color: var(--tg-theme-primary);
@@ -2311,7 +2311,7 @@ textarea {
     04. Banner
 ===============================*/
 .banner-bg {
-  background-image: url("../img/banner/banner_bg.jpg");
+  background-image: url("../img/banner/h3_banner_bg.jpg");
   background-size: cover;
   background-position: center;
   min-height: 870px;
@@ -3201,6 +3201,8 @@ textarea {
 ===============================*/
 .about-area {
   position: relative;
+  background: #7581ad;
+
 }
 @media (max-width: 767.98px) {
   .about-area {
@@ -3341,6 +3343,7 @@ textarea {
   text-align: center;
   position: relative;
   padding: 30px 0;
+
 }
 @media (max-width: 991.98px) {
   .about__img-wrap-two {
@@ -3373,7 +3376,7 @@ textarea {
 }
 .about__img-wrap-two::before {
   content: "";
-  position: absolute;
+  /* position: absolute; */
   right: 40px;
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -4766,6 +4769,7 @@ textarea {
   -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
   margin-bottom: 30px;
+  width:412px;
 }
 .services-item:hover {
   box-shadow: 0px 4px 30px 0px #CFDEE4;
@@ -4912,6 +4916,7 @@ textarea {
   border-radius: 10px 10px 0 100px;
   overflow: hidden;
   position: relative;
+
 }
 .services-thumb img {
   height: 200px;
@@ -5221,11 +5226,11 @@ textarea {
   border-bottom: none;
   margin-bottom: 0;
   flex-direction: column;
-  width: 330px;
+  width: 600px;
 }
 @media (max-width: 1199.98px) {
   .services__tab-wrap .nav-tabs {
-    width: 270px;
+    width: 370px;
   }
 }
 @media (max-width: 767.98px) {
@@ -5263,7 +5268,7 @@ textarea {
   color: var(--tg-color-white-default);
   padding: 15px 55px 15px 25px;
   position: relative;
-  width: 330px;
+  width: 546px;
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
   -ms-transition: all 0.3s ease-out 0s;
@@ -14619,9 +14624,14 @@ blockquote p {
     right: -15px;
   }
 }
-.team_img{
+/* .team_img{
   width: 421px !important;
   height:513px !important;
+} */
+
+.team_img{
+  width: 221px !important;
+  height:253px !important;
 }
 
 body {
@@ -14657,11 +14667,17 @@ body {
 .whatsapp-btn{
   
   position: fixed;
-  left:2px;
-  top:400px;
+  right:20px;
+  bottom:40px;
   width: 54px;
   height:54px;
   z-index: 10;
 
 }
+
+.gifs-custom{
+  overflow: hidden;
+  padding:4px;
+}
+
 /*# sourceMappingURL=main.css.map */
